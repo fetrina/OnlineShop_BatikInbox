@@ -1,0 +1,119 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+    
+	color:#555555;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.clear{
+	clear:both;
+}
+
+#main-container{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 0px;
+	width:560px;
+}
+
+#form-container{
+	background-color:#ececec;
+    padding-bottom: 5px;
+     padding-left: 15px;
+      padding-right: 15px;
+       padding-top: 15px;
+	
+	-moz-border-radius:12px;
+	-khtml-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius:12px;
+}
+
+td{
+	white-space:nowrap;
+}
+
+a, a:visited {
+	color:#333333;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+h1{
+	color:#777777;
+	font-size:22px;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin-bottom:5px;
+}
+
+h2{
+	font-weight:normal;
+	font-size:10px;
+	
+	text-transform:uppercase;
+	
+	color:#aaaaaa;
+	margin-bottom:15px;
+	
+	border-bottom:1px solid #d2d2d2;
+	margin-bottom:15px;
+	padding-bottom:10px;
+}
+
+label{
+	text-transform:uppercase;
+	font-size:11px;
+	font-family:Tahoma,Arial,Sans-serif;
+}
+
+textarea{
+	color:#333333;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+
+td > button{
+	text-indent:8px;
+}
+
+.error{
+	background-color:#AB0000;
+	color:white;
+	font-size:10px;
+	font-weight:bold;
+	margin-top:10px;
+	padding:10px;
+	text-transform:uppercase;
+	width:300px;
+}
+
+#loading{
+	position:relative;
+	bottom:9px;
+	visibility:hidden;
+}
+
+.tutorial-info{
+	color:white;
+	text-align:center;
+	padding:10px;
+	margin-top:10px;
+}
+
+ /* ini tmbahanku krn ikut tuorial yg beda*/
+input.error, select.error { /* ini tmbahanku krn ikut tuorial yg beda*/
+border: 1px solid red;
+}
+label.error {
+color:red; margin-left: 10px;
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Css3Menu>
+    <project version="1.1">
+        <params>
+            <HasChanges>true</HasChanges>
+            <EmbandImg>false</EmbandImg>
+            <Data>var menuStyle={
+	&quot;menu&quot;:{
+		&quot;isHorizontal&quot;:0,
+		&quot;fontStyle&quot;:[&quot;normal 14px Trebuchet MS&quot;,&quot;normal 14px Trebuchet MS&quot;],
+		&quot;fontColor&quot;:[&quot;#FFF&quot;,&quot;#FFF&quot;],
+		&quot;menuBackColor&quot;:&quot;#424542&quot;,
+		&quot;menuBorderColor&quot;:&quot;#FFF&quot;,
+		&quot;menuBorderWidth&quot;:&quot;2px&quot;,
+		&quot;menuBorderStyle&quot;:&quot;solid&quot;,
+		&quot;menuBorderRadius&quot;:&quot;7px&quot;,
+		&quot;itemBackColor&quot;:[&quot;#424542&quot;,&quot;#ffa202&quot;],
+		&quot;itemBackImage&quot;:[&quot;none&quot;,&quot;images/mainbk.png&quot;],
+		&quot;itemBorderWidth&quot;:&quot;1px 0 0 0&quot;,
+		&quot;itemBorderColor&quot;:[&quot;#424542&quot;,&quot;#424542&quot;],
+		&quot;itemBorderStyle&quot;:[&quot;solid&quot;,&quot;solid&quot;],
+		&quot;itemBorderRadius&quot;:&quot;4px&quot;,
+		&quot;itemSpacing&quot;:3,
+		&quot;itemPadding&quot;:&quot;10px&quot;,
+		&quot;itemCursor&quot;:&quot;pointer&quot;,
+		&quot;arrowImageMain&quot;:[&quot;images/arrowsub.png&quot;,&quot;images/arrowsub.png&quot;],
+		&quot;arrowWidth&quot;:4,
+		&quot;arrowImageSub&quot;:[&quot;images/arrowsub.png&quot;,&quot;images/arrowsub.png&quot;],
+		&quot;arrowWidthSub&quot;:4,
+		&quot;separatorImage&quot;:&quot;images/hsep.png&quot;,
+		&quot;separatorHeight&quot;:&quot;1px&quot;,
+		&quot;separatorVWidth&quot;:&quot;1&quot;,
+		&quot;separatorPadding&quot;:&quot;0px&quot;,
+		&quot;shadowLen&quot;:5
+		},
+	&quot;topfirst&quot;:{
+		&quot;itemBorderWidth&quot;:&quot;0&quot;
+		},
+	&quot;subfirst&quot;:{
+		&quot;itemBorderWidth&quot;:&quot;0&quot;
+		}
+	};</Data>
+            <isHorizontal>0</isHorizontal>
+            <smMaxRows>0</smMaxRows>
+            <FontFamily>Trebuchet MS</FontFamily>
+            <FontSize>14</FontSize>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+            <Underline>false</Underline>
+            <OverUnderline>false</OverUnderline>
+            <FontFamily1>Trebuchet MS</FontFamily1>
+            <FontSize1>14</FontSize1>
+            <Bold1>false</Bold1>
+            <Italic1>false</Italic1>
+            <Underline1>false</Underline1>
+            <OverUnderline1>false</OverUnderline1>
+            <TextColor0>#ffffff</TextColor0>
+            <TextColor1>#ffffff</TextColor1>
+            <SubTextColor0>#ffffff</SubTextColor0>
+            <SubTextColor1>#ffffff</SubTextColor1>
+            <ItemBackColor0></ItemBackColor0>
+            <ItemBackColor1>#ffffff</ItemBackColor1>
+            <SubitemBackColor0></SubitemBackColor0>
+            <SubitemBackColor1></SubitemBackColor1>
+            <itemBorderRadius0>4</itemBorderRadius0>
+            <itemBorderRadius1>4</itemBorderRadius1>
+            <menuBorderRadius0>7</menuBorderRadius0>
+            <menuBorderRadius1>7</menuBorderRadius1>
+            <itemAlign>left</itemAlign>
+            <itemAlignTop>left</itemAlignTop>
+            <smOpacity>100</smOpacity>
+            <menuWidth>0</menuWidth>
+            <menuHeight>0</menuHeight>
+            <fade>false</fade>
+        </params>
+        <items>
+            <item>
+                <text>Kelola Home</text>
+                <link></link>
+                <hint></hint>
+                <target></target>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Kelola Produk</text>
+                <link></link>
+                <hint></hint>
+                <target></target>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Kelola Promo</text>
+                <link></link>
+                <hint></hint>
+                <target></target>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Kelola Ongkos Kirim</text>
+                <link></link>
+                <hint></hint>
+                <target></target>
+                <icon></icon>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>FAQ</text>
+                <link></link>
+                <hint>FAQ</hint>
+                <target></target>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Daftar Pembelian</text>
+                <link></link>
+                <hint></hint>
+                <target></target>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Konfirmasi dan Pembayaran</text>
+                <link></link>
+                <hint></hint>
+                <target></target>
+                <pressed>0</pressed>
+            </item>
+            <item>
+                <text>Laporan</text>
+                <link></link>
+                <hint></hint>
+                <target></target>
+                <pressed>0</pressed>
+            </item>
+        </items>
+        <media>
+            <img src=""></img>
+            <img src="arrowsub.png">iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAYAAABirU3bAAAAHUlEQVR42mP8DwQMEMAIJqB8uCAjQgFEEKsKFDMAuFsT9m2NIKYAAAAASUVORK5CYII=</img>
+            <img src="hsep.png">iVBORw0KGgoAAAANSUhEUgAAAL4AAAABCAIAAADvioNqAAAAa0lEQVR42nVPQQ7AIAgrF/9msv//xRNL0EFBVhJsgaLKfOZaS0Rg2KRkAYXLTDa8cCRI3O1izJV+HF37jyAsJbek8BaqGtwiEet6VlCQPNSODa8fCRLfRLjIeK9qN4TMt7O3Pvb6Dn9/jPEC0Jix4HcuSB4AAAAASUVORK5CYII=</img>
+            <img src="mainbk.png">iVBORw0KGgoAAAANSUhEUgAAAAEAAABkCAYAAABHLFpgAAAAAXNSR0IArs4c6QAAAAZiS0dEAAAAAAAA+UO7fwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9oJGA8fEDx90S8AAABXSURBVBjTxY1BDoAgDASHRV/vhwHRemtSAsabl8l0t2kxs0NAF3AKqAJKtLLKasyaj82PdgGXgFuACZCA7Ngc+8S2uDfYAEXkybehTT6mFd7bDyDav3gA6ogaOZY0Sc8AAAAASUVORK5CYII=</img>
+        </media>
+    </project>
+</Css3Menu>

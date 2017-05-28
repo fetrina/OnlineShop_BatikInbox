@@ -1,0 +1,28 @@
+table {
+	margin-left: 50px;
+}
+table .text{
+	text-align: right;
+}
+th, td {
+	font: 12px Arial, Helvetica, sans-serif;
+	background-color: transparent;
+	padding: 4px;
+}
+
+input.submitform {
+	background: #20AF00;
+	color: #fff;
+	height: 25px;
+	width: 100px;
+	font-weight: bold;
+	border: none;
+	margin: 0;
+}
+
+input.error, select.error { 
+	border: 1px solid red; 
+}
+label.error { 
+	color:red; margin-left: 10px; 
+}

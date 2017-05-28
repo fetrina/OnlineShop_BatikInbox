@@ -1,0 +1,58 @@
+
+.teksnya{
+
+  color       : #74cd00;
+  font-family : Tahoma;
+  font-size   : 13px;
+}
+
+
+div.paging {
+	padding     : 2px;
+	margin      : 2px;
+	text-align  : center;
+	font-family : Tahoma;
+	font-size   : 12px;
+}
+div.paging a {
+	padding             : 2px 6px;
+	margin-right        : 2px;
+	border              : 1px solid #DEDFDE;
+     border-radius: 3px 3px 3px 3px ;
+	text-decoration     : none; 
+	color               : #74cd00;
+	background-position : bottom;
+}
+div.paging a:hover {
+	border : 1px solid #74cd00;
+     border-radius: 3px 3px 3px 3px ;
+      box-shadow: -1px -0px 3px #e1e1e1,  1px 1px 3px #e1e1e1;      
+    background-color: #74cd00;
+	color  : #ffffff;
+}
+div.paging span.current {
+	padding      : 2px 6px;
+	margin-right : 2px;
+	font-weight  : bold;
+	color        : #2e2e2e; 
+}
+div.paging span.disabled {
+	padding      : 2px 6px;
+	margin-right : 2px;
+	color        : #ADAAAD;
+	font-weight  : bold;
+}
+div.paging span.prevnext {
+  font-weight : bold;
+}
+div.paging span.prevnext a {
+  border : none;
+}
+div.paging span.prevnext a:hover {
+	border : 1px solid #74cd00;
+     border-radius: 3px 3px 3px 3px ; /* kiri atas ,kanan atas, kanan bwh, kiri bwh */  /* untuk all browser */
+     box-shadow: -1px -0px 3px #e1e1e1,  1px 1px 3px #e1e1e1; 	/* sumbu kiri, atas, blur, warna */    /* lalu sumbu kanan,sumbu bwh, blur, warna*/ 
+	color  : #ffffff;
+}
+
+

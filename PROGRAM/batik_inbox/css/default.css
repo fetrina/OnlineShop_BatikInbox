@@ -1,0 +1,696 @@
+body{
+	background-image:url(../image/bg,%20header%20dll/scripts.gif);
+}
+#bgatasan_bwthome{
+   background-color:#c2e495; /*atao #bbbbbb*/
+    height:262px;
+    padding-left:0px;	
+    padding-right:0px;
+    margin-bottom: 0px;
+    -moz-border-radius: 14px 14px 0px 0px;	   		/* radius = besar kelengkungan, untuk mozila */ 
+	-webkit-border-radius: 14px 14px 0px 0px;    	/* radius = besar kelengkungan, untuk webkit */ 
+    border-radius: 14px 14px 0px 0px ;	/* kiri atas ,kanan atas, kanan bwh, kiri bwh */  /* untuk all browser */ 
+	
+}
+.footer{
+    font-family:calibri;
+     font-size: 16px;
+    margin-top: 90px;
+    width: 100%;
+    height: 25px;
+    text-align : center;
+    color: #525252;
+}
+#bodyBG{
+ background-color:#FFFFFF;
+ margin-left:80px;
+ margin-right:80px;
+ margin-top:75px;
+ width:auto;
+ height:800px;
+ padding-left:0px;	
+ padding-right:0px;
+ 
+ /* ini untuk pngaturan wrna dan tebal border*/
+ border-bottom:: 1px solid #cccccc;
+ border-bottom:: 1px solid #cccccc; 
+ border-left: 1px solid #cccccc;
+ border-right: 1px solid #cccccc; 
+ 
+  /* ini untuk pngaturan lengkungan border*/  
+    -moz-border-radius: 14px 14px 7px 7px;	   		/* radius = besar kelengkungan, untuk mozila */ 
+	-webkit-border-radius: 14px 14px 7px 7px;    	/* radius = besar kelengkungan, untuk webkit */ 
+    border-radius: 14px 14px 7px 7px ;	/* kiri atas ,kanan atas, kanan bwh, kiri bwh */  /* untuk all browser */ 
+	
+ /* ini untuk pngaturan shadow*/   
+	-moz-box-shadow: 3px 1px 8px #000000; /* sumbu x ,sumbu y, blur, warna */ 	/*untuk mozila*/
+	-webkit-box-shadow: 3px 1px 8px #000000; /* sumbu x ,sumbu y, blur, warna */    /*untuk webkit*/
+	  /* box-shadow: -1px -2px 6px #1f1f1f, 4px 3px 5px #000000; */ /* minus sumbu x tu atas,minus sumbu y tu kiri, blur, warna */    /* lalu sumbu x bawah,sumbu y kanan, blur, warna*/ 
+	 box-shadow: -3px -0px 9px #1f1f1f,  3px 1px 8px #000000; 	/* sumbu kiri, atas, blur, warna */    /* lalu sumbu kanan,sumbu bwh, blur, warna*/ 
+}
+
+#columnLeft{
+    float: left;
+	width: 26%;
+    height: 100%;
+	padding-left: 0px;
+    background-image: url(../image/bg,%20header%20dll/heads_side_item2nya_versi2.png) ; /*ini abu2 gradasi, yang diseblh kiri tempat kategori dll*/
+    background-repeat: repeat-y;
+}
+.contentLeft{
+    padding-left: 30px;
+    padding-right: 20px;
+    color: lime;
+}
+.teksBannerIjo{
+    margin-top: 10px;
+    padding: 7px 0px 0px 19px; /* atas bwh kanan kiri*/
+    height: 44px;
+    width: 271px;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:Arial,Sans-serif;
+    color: #fafafa ;
+    background-image: url(../image/bg,%20header%20dll/heads_sidebanner_ijosedang_dibalik2.png); /*ini ijo2 dsblh kiri*/
+    background-repeat: no-repeat ; 
+}
+.isiContentLeft{
+     padding: 2px 0px 3px 22px; 
+     font-family:calibri;
+     font-size: 16px;
+     color:#fafafa;
+}
+.krnjg{
+    background-image: url(../image/icon/shopping_cart3.png);
+    background-repeat: no-repeat ; 
+    display:inline;
+}
+.linknya{
+    text-decoration:none;
+     color:#fafafa;
+}
+ a:hover{  color:#f8d302;}
+ a:active{ color: #cfcfcf; text-decoration:none; }
+ a:visited{ text-decoration:none; }
+.linkform{
+    color: #5e5e5e;
+    cursor: pointer;
+    text-decoration: none;  
+ } 
+a.linkform:hover{
+    color:#569800;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttonijo2{ /*inibutton ijo di konten */
+   margin:0px 5px 0px 5px; /*atas kanan bwh kiri*/
+	font-family: arial;
+    font-weight: bold;
+	line-height: 1;
+	padding: 6px 8px;
+	cursor:pointer;   
+	color: #fff;
+	
+	text-align: center;
+	text-shadow: 0 -1px 1px #849c66;
+	
+	/* Background gradient */
+	background: #b2da1d;
+	background: -moz-linear-gradient(top, #b2da1d 0%, #569800 100%);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b2da1d), to(#569800));
+	
+	/* Border style */
+  	border: 1px solid #738858;  
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+  
+	/* Box shadow */
+	-moz-box-shadow: inset 0 1px 0 0 #cee4b0;
+	-webkit-box-shadow: inset 0 1px 0 0 #cee4b0;
+	box-shadow: inset 0 1px 0 0 #cee4b0;	
+	}
+	
+.buttonijo2:hover {
+	background: #74cd00;
+    cursor: pointer;
+    
+}
+
+a.buttonijo2{
+        color: #fff;
+        font-size: 13px;
+        text-decoration:none;
+        
+}
+
+.buttonPutih2{    
+ margin:10px 30px 10px 0;
+	font-family: arial;
+	line-height: 1;
+	padding: 4px 8px;
+	cursor:pointer;   
+	color: #1c1c1c;
+	
+	text-align: center;
+	text-shadow: 0 0px 0px #ffffff;
+	
+	/* Background gradient */
+	background: #eeeeee;
+	background: -moz-linear-gradient(top, #eeeeee 10%, #fdfdfd 80%);
+	background: -moz-linear-gradient(bottom, #eeeeee 0%, #fdfdfd 40%);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#fdfdfd));
+    
+	
+	/* Border style */
+    border-bottom: 1px solid #8d8d8d;
+    border-right: 1px solid #8d8d8d;   
+  	border-left: 1px solid #cccccc;  
+    border-top: 0px solid #cccccc;  
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+  
+	/* Box shadow */
+	-moz-box-shadow: inset 0 1px 0 0 #e1e1e1;
+	-webkit-box-shadow: inset 0 1px 0 0 #e1e1e1;
+	box-shadow: inset 0 1px 0 0 #e1e1e1;   
+   }
+  
+.buttonPutih2:hover {
+    color: #569800;
+    cursor: pointer;
+	} 
+
+a.buttonPutih2{
+    /* Background gradient */
+	background: #eeeeee;
+	background: -moz-linear-gradient(top, #eeeeee 10%, #fdfdfd 80%);
+	background: -moz-linear-gradient(bottom, #eeeeee 0%, #fdfdfd 40%);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#fdfdfd));
+    
+	
+	/* Border style */
+    border-bottom: 1px solid #8d8d8d;
+    border-right: 1px solid #8d8d8d;   
+  	border-left: 1px solid #cccccc;  
+    border-top: 0px solid #cccccc;  
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+  
+	/* Box shadow */
+	-moz-box-shadow: inset 0 1px 0 0 #e1e1e1;
+	-webkit-box-shadow: inset 0 1px 0 0 #e1e1e1;
+	box-shadow: inset 0 1px 0 0 #e1e1e1;
+}
+#columnRight{
+    float: right;
+	width: 74%;
+    height: 100%;
+}
+.contentRight{
+    padding-left: 30px;
+    padding-right: 20px;
+
+}
+.teksfield{
+    padding: 5px 6px 5px 6px; /*atas knan bawah kiri*/
+    font-family: arial, sans-serif; 
+    font-size: 12px;
+    color: #141414;
+	
+ }
+.underlinenya{
+    width: 230px;
+	height: 5px;
+	position: absolute;
+	border-bottom: #e1e1e1 solid 1px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+.underlinenya1{ /*ini solid border di hlaman tetang kami */
+    width: 510px; 
+    border-bottom:1px solid;border-color: #1c9991; 
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.underlinenya2{ /*ini dashed border di link keranjang blanja */
+    width: 230px;
+	height: 5px;
+	border-bottom: #c4c4c4 dashed 1px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+.underlinenya2b{ /*ini dashed border di carablanja */
+    width: 720px;
+	height: 5px;
+	border-bottom: #c4c4c4 dashed 1px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+.underlinenya3{
+    width: 230px;
+	height: 5px;
+	border-bottom: #838383 dotted 1px;
+    margin-left: 2px;
+    padding-bottom: 3px;
+}
+.bgHeaderCart{
+    width: 235px;
+	height: 5px;
+    background-color: #b95401;
+    border-radius: 8px 8px 0px 0px ;	/* kiri atas ,kanan atas, kanan bwh, kiri bwh */  /* untuk all browser */ 
+}
+.bgHeaderCart2{
+    width: 235px;
+	min-height: 15px;
+    background-color: #e7a300;
+    border-radius: 0px 0px 0px 0px ;	/* kiri atas ,kanan atas, kanan bwh, kiri bwh */  /* untuk all browser */ 
+    color: 232d2f;
+}
+.headerProdukRandom{
+    color: #606060;
+    font-size: 14px;
+    font-family: calibri;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 0px;
+    padding: 7px 7px 7px 15px; /* atas bwh kanan kiri*/
+    background-color: #ececec;
+    border-radius: 8px 8px 8px 8px ; /* ataskiri ataskanan kananbwh kiribwh*/
+    -moz-box-shadow:  1 2px 0 0 #d9d9d9;
+	-webkit-box-shadow:  1 2px 0 0 #d9d9d9;
+	box-shadow:  1px 2px 0 0 #d9d9d9;   /* knn bwh blur kanan-kiri wrna*/
+}
+.kolomProdukRandom{
+    color: #757575;
+    font-size: 14px;
+    font-family: calibri;
+    margin-left: 4px;
+    margin-right: 12px;
+    padding: 7px 7px 7px 15px; /* atas bwh kanan kiri*/
+    /*border-radius: 8px 8px 8px 8px ; /* ataskiri ataskanan kananbwh kiribwh*/
+  /*  -moz-box-shadow:  1 1px 1px 2px #bababa;
+/*	-webkit-box-shadow:  1 1px 1px 2px #bababa;
+/*	box-shadow:  0px 1px 1px 1px #bababa;   /* knn bwh blur kanan-kiri wrna*/
+
+}
+
+  /* TABEL */    
+.styleTabel{
+     font-family:calibri;
+     color: #1a1a1a;
+}
+.styleTeksProduk{
+     font-family:calibri;
+     color: #1a1a1a;
+     font-size: 14px;
+}
+.styleTeksProduk2{
+     font-family:calibri;
+     color: #1a1a1a;
+     font-size: 15px;
+     text-align: center;   
+}
+.styleTeksHarga{
+     font-family:calibri;
+     color: #1a1a1a;
+     font-size: 15px;
+     text-align: center; 
+}
+.styleprofileinbox{ /* ini style hlmn tentang kami*/
+    font-family: calibri;
+   font-size: 14px; 
+   text-align: center; 
+   width: 400px; 
+   margin-left: 100px;
+}
+.bordergbr{
+     border: #c4c4c4 solid 4px;
+     border-radius: 6px 6px 6px 6px ;
+}
+.bordertabel{
+        border-color: #fff1a4;
+}
+.bgtabel{
+    background-color: #fff1a4;
+}
+.bgMyCart{
+    background-color: #f1f0f1;
+    padding: 5px 10px 10px 10px; /* atas bwh kanan kiri*/
+    border-radius: 9px 9px 9px 9px ;
+    margin-right: 30px;
+    -moz-box-shadow:  1 2px 0 0 #e1e1e1;
+	-webkit-box-shadow:  1 2px 0 0 #e1e1e1;
+	box-shadow:  1px 2px 0 0 #e1e1e1;   /* knn bwh blur kanan-kiri wrna*/
+}
+.judulTabel{
+    color: #1a1a1a;
+    padding: 5px 6px 2px 2px;
+    font-family: arial, sans-serif; 
+    font-size: 12px; 
+}
+.jarakPerKolom{
+    padding-right: 20px;
+    font-family: calibri;
+}
+.judulKapital{
+    text-transform:uppercase;
+}
+.kolomProdukDetail{
+    margin-left: 30px;
+    padding: 7px 7px 7px 7px; /* atas bwh kanan kiri*/
+    background-color: #f1f0f1;
+    border-radius: 8px 8px 8px 8px ;
+    -moz-box-shadow:  1 2px 0 0 #e1e1e1;
+	-webkit-box-shadow:  1 2px 0 0 #e1e1e1;
+	box-shadow:  1px 2px 0 0 #e1e1e1;   /* knn bwh blur kanan-kiri wrna*/
+}
+.kolomKetDetail{
+    padding-left: 20px;
+    font-family: calibri;
+}
+.kolomJudulformCustomer{
+    font-size: 20px;
+    font-weight: bold;
+}
+.kolomformCustomer{
+    
+    font-size: 12px;
+    border-bottom: 1px solid #c1c1c1;border-width: 100%;
+    padding: 2px 7px 7px 0px; /* atas bwh kanan kiri*/
+}
+.kolom_cekout{
+    font-family: calibri;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 12px 12px 12px 12px; /* atas bwh kanan kiri*/
+    background-color: #daf8ff;
+    border-radius: 8px 8px 8px 8px ;
+    -moz-box-shadow:  1 2px 0 0 #e1e1e1;
+	-webkit-box-shadow:  1 2px 0 0 #e1e1e1;
+	box-shadow:  1px 2px 0 0 #e1e1e1;   /* knn bwh blur kanan-kiri wrna*/
+}
+
+  /* JARAK */   
+.jarakHeader{
+        margin-top: 15px;
+}
+.jarakAntarContent{
+        padding-top: 10px;
+        padding-left: 10px;
+}
+.bigEnter{
+    padding-top: 55px;
+}
+.mediumEnter{
+    padding-top: 30px;
+}
+.littleEnter{
+    padding-top: 15px;
+}  
+.bigNbsp{
+         padding-left: 74px;
+}
+.mediumNbsp{
+         padding-left: 45px; display: inline;
+}
+.mediumNbsp2{
+         margin-left: 25px;
+}
+.solittleNbsp{
+         padding-left: 3px;
+}
+
+
+/*BUAT PERUBAHAN ukuran image font dll. ketika screenny monitor bruha resolusinya*/
+/* min-width & max-width */
+@media screen and (min-width: 1104px) and (max-width: 1204px) {
+	.resize_byscreen { /*ini buat BG Body*/
+		width: 80px;
+        max-width: 120px;
+        font-size: 12px;
+	}
+    .resize_byscreen2 { /*ini buat gbr produk*/
+		width: 75px;
+        height: 110px;
+	}
+    .resize_byscreen4 { /*ini buat teks di lefcontent*/
+        font-size: 15px;
+	}
+    .resize_byscreen5 { /*ini buat image mandiri lefcontent*/
+        	width: 145px;
+	}
+    .resize_byscreen6 { /*ini buat teks produknya di view produkbykate*/
+        	font-size: 13px;
+	}
+     .resize_byscreen8 { /*ini buat button beli & detail*/
+        width: 50px;
+        height: 10px;
+	}
+    .resize_byscreen9{  /*ini buat combobox size*/
+        width: 110px;
+        font-size: 12px;
+    }
+     .resize_byscreen10{  /*ini buat link kernjang blanja*/
+        font-size: 13px;
+    }
+    .resize_byscreen11{  /*ini buat underlinenya2b di rightcontent header kyk cara belanja*/
+        width: 635px;
+        height: 5px;
+        border-bottom: #c4c4c4 dashed 1px;
+    }
+    .resize_byscreen13{  /*ini buat underlinenya2 di tentang kami / profile batik inbox */
+            width: 460px;
+    }
+    .resize_byscreen14{  /*ini buat image profile batik inbox */
+            width: 80%;
+    }
+    .resize_byscreen15{  /*ini buat image banner slideshow */
+            width: 90%;
+    }
+    .resize_byscreen16{  /*ini buat image item2 dibanner slideshow */
+            width: 60%;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1104px) {
+    .resize_byscreen2 { /*ini buat gbr produk*/
+		width: 65px;
+        height: 95px;
+	}
+    .resize_byscreen4 { /*ini buat teks di lefcontent trmasuk*/
+        font-size: 14px;
+	}
+     .resize_byscreen5 { /*ini buat image mandiri leftcontent*/
+    	width: 125px;
+	}
+    .resize_byscreen6 { /*ini buat teks produknya di view produkbykate*/
+   	    font-size: 11px;
+	}
+    .resize_byscreen8 { /*ini buat button beli & detail*/
+        width: 40px;
+        height: 7px;
+	}
+    .resize_byscreen9{  /*ini buat combobox size*/
+        width: 100px;
+        font-size: 12px;
+    }
+    .resize_byscreen10{  /*ini buat link kernjang blanja*/
+        font-size: 12px;
+    }
+    .resize_byscreen11{  /*ini buat underlinenya2b di rightcontent header kyk cara belanja*/
+        width: 550px;
+        height: 5px;
+	   border-bottom: #c4c4c4 dashed 1px;
+    }
+    .resize_byscreen13{  /*ini buat underlinenya2 di tentang kami / profile batik inbox */
+        width: 430px;
+    }
+    .resize_byscreen14{  /*ini buat image profile batik inbox */
+        width: 80%;
+    }
+    .resize_byscreen15{  /*ini buat image banner slideshow */
+            width: 80%;
+    }
+    .resize_byscreen16{   /*ini buat image item2 dibanner slideshow */
+            width: 50%;
+    }
+ }
+ @media screen and (min-width: 900px) and (max-width: 1000px) {
+    .resize_byscreen2 { /*ini buat gbr produk*/
+		width: 60px;
+        height: 90px;
+	}
+    .resize_byscreen4 { /*ini buat teks di lefcontent trmasuk link kernjg_blnja*/
+        font-size: 13px;
+	}
+     .resize_byscreen5 { /*ini buat image mandiri lefcontent*/
+ 	   width: 120px;
+	}
+    .resize_byscreen6 { /*ini buat teks produknya di view produkbykate*/
+   	    font-size: 10px;
+	}
+    .resize_byscreen8 { /*ini buat button beli & detail*/
+        width: 40px;
+        height: 7px;
+	}
+    .resize_byscreen9{  /*ini buat combobox size*/
+        width: 100px;
+        font-size: 12px;
+    }
+    .resize_byscreen10{  /*ini buat link kernjang blanja*/
+        font-size: 12px;
+    }
+    .resize_byscreen11{  /*ini buat underlinenya2b di rightcontent header kyk cara belanja*/
+        width: 480px;
+        height: 5px;
+	   border-bottom: #c4c4c4 dashed 1px;
+    }
+    .resize_byscreen13{  /*ini buat underlinenya2 di tentang kami / profile batik inbox */
+        width: 380px;
+    }
+    .resize_byscreen14{  /*ini buat image profile batik inbox */
+        width: 85%;
+    }
+    .resize_byscreen15{  /*ini buat image banner slideshow */
+            width: 75%;
+    }
+    .resize_byscreen16{   /*ini buat image item2 dibanner slideshow */
+            width: 40%;
+    }
+ }     
+ @media screen and (min-width: 850px) and (max-width: 900px) {
+    .resize_byscreen2 { /*ini buat gbr produk*/
+		width: 50px;
+        height: 80px;
+	}
+    .resize_byscreen4 { /*ini buat teks di lefcontent trmasuk*/
+        font-size: 12px;
+	}
+    .resize_byscreen5 { /*ini buat image mandiri lefcontent*/
+   	    width: 110px;
+	}
+    .resize_byscreen6 { /*ini buat teks produknya di view produkbykate*/
+   	    font-size: 10px;
+	}
+    .resize_byscreen10{  /*ini buat link kernjang blanja*/
+        font-size: 10px;
+    }
+    .resize_byscreen11{  /*ini buat underlinenya2b di rightcontent header kyk cara belanja*/
+        width: 460px;
+        height: 5px;
+	   border-bottom: #c4c4c4 dashed 1px;
+    }
+    .resize_byscreen13{  /*ini buat underlinenya2 di tentang kami / profile batik inbox */
+        width: 350px;
+    }
+    .resize_byscreen14{  /*ini buat image profile batik inbox */
+        width: 65%;
+    }
+    .resize_byscreen15{  /*ini buat image banner slideshow */
+            width: 70%;
+    }
+    .resize_byscreen16{   /*ini buat image item2 dibanner slideshow */
+            width: 30%;
+    }
+ }
+  @media screen and (min-width: 800px) and (max-width: 850px) {
+    .resize_byscreen2 { /*ini buat gbr produk*/
+		width: 50px;
+        height: 80px;
+	}
+    .resize_byscreen5 { /*ini buat image mandiri lefcontent*/
+   	    width: 120px;
+	}
+    .resize_byscreen6 { /*ini buat teks produknya di view produkbykate*/
+   	    font-size: 10px;
+	}
+    .resize_byscreen10{  /*ini buat link kernjang blanja*/
+        font-size: 9px;
+    }
+    .resize_byscreen11{  /*ini buat underlinenya2b di rightcontent header kyk cara belanja*/
+        width: 420px;
+        height: 5px;
+	   border-bottom: #c4c4c4 dashed 1px;
+    } 
+    .resize_byscreen14{  /*ini buat image profile batik inbox */
+        width: 65%;
+    }
+    .resize_byscreen15{  /*ini buat image banner slideshow */
+            width: 65%;
+    }
+    .resize_byscreen16{   /*ini buat image item2 dibanner slideshow */
+            width: 30%;
+    }
+ }
+ @media screen and (min-width: 400px) and (max-width: 800px) {
+    .resize_byscreen2 { /*ini buat gbr produk*/
+		width: 40px;
+        height: 70px;
+	}
+    .resize_byscreen4 { /*ini buat teks di lefcontent trmasuk*/
+        font-size: 14px;
+	}
+    .resize_byscreen5 { /*ini buat image mandiri lefcontent*/
+   	    width: 100px;
+	}
+    .resize_byscreen6 { /*ini buat teks produknya di view produkbykate*/
+   	    font-size: 9px;
+	}
+    .resize_byscreen10{  /*ini buat link kernjang blanja*/
+        font-size: 8px;
+    }
+    .resize_byscreen11{  /*ini buat underlinenya2b di rightcontent header kyk cara belanja*/
+        width: 400px;
+        height: 5px;
+	   border-bottom: #c4c4c4 dashed 1px;
+    }
+    .resize_byscreen14{  /*ini buat image profile batik inbox */
+        width: 65%;
+    }
+    .resize_byscreen15{  /*ini buat image banner slideshow */
+            width: 60%;
+    }
+    .resize_byscreen16{   /*ini buat image item2 dibanner slideshow */
+            width: 30%;
+    }
+ } 
+ @media screen and (min-width: 200px) and (max-width: 400px) {
+    .resize_byscreen2 { /*ini buat gbr produk*/
+		width: 40px;
+        height: 70px;
+	}
+    .resize_byscreen4 { /*ini buat teks di lefcontent trmasuk*/
+        font-size: 10px;
+	}
+    .resize_byscreen5 { /*ini buat image mandiri lefcontent*/
+   	    width: 70px;
+	}
+    .resize_byscreen6 { /*ini buat teks produknya di view produkbykate*/
+   	    font-size: 9px;
+	}
+    .resize_byscreen10{  /*ini buat link kernjang blanja*/
+        font-size: 7px;
+    }
+    .resize_byscreen11{  /*ini buat underlinenya2b di rightcontent header kyk cara belanja*/
+        width: 400px;
+        height: 5px;
+	   border-bottom: #c4c4c4 dashed 1px;
+    }
+    .resize_byscreen14{  /*ini buat image profile batik inbox */
+        width: 65%;
+    }
+    .resize_byscreen15{  /*ini buat image banner slideshow */
+            width: 60%;
+    }
+    .resize_byscreen16{   /*ini buat image item2 dibanner slideshow */
+            width: 30%;
+    }
+ }      
+    
+ 
+    

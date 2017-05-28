@@ -1,0 +1,56 @@
+
+.form-div {
+	font-family:calibri;
+	font-size:14px;
+
+  padding: 12px;
+  width: 550px;    
+	background-color:#def;
+     border-radius: 9px 9px 9px 9px ;
+      margin-left: 0px;
+    -moz-box-shadow:  1 2px 0 0 #e1e1e1;
+	-webkit-box-shadow:  1 2px 0 0 #e1e1e1;
+	box-shadow:  1px 2px 0 0 #e1e1e1;   /* knn bwh blur kanan-kiri wrna*/
+}
+
+.form-div .submit {
+  margin-left: 155px;
+  margin-top: 10px;
+}
+
+.form-div .label {
+    font-family: calibri;
+    font-size: 14px;
+  display: block;
+  float: left;
+  width: 140px;
+  text-align: right;
+  margin-right: 10px;
+}
+.form-div .form-row {
+  padding: 5px 0;
+  clear: both;
+  width: 700px;
+}
+
+.form-div label.error {
+  width: 250px;
+  display: block;
+  float: right;
+  color: red;
+  padding-left: 10px;
+  background: url(unvalid.gif) no-repeat;
+}
+.form-div .teksfield { /* ini tadinya input  bukan .teksfield */
+  width: 180px;
+  float: left;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+    padding: 5px 5px 5px 5px;    
+}
+.form-div label.valid {
+  width: 24px;
+  background: url(valid.gif) center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}
